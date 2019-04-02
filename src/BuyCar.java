@@ -14,7 +14,7 @@ public class BuyCar {
             newPrice = newPrice*(100-decPercent)/100;
             oldPrice = oldPrice*(100-decPercent)/100;
             month++;
-        }
+        }//fgh
         int result = (int)Math.round(newPrice-oldPrice-saving);
         return new int[] {month-1,-result};
     }
